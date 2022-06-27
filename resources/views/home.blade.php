@@ -46,7 +46,9 @@
                 </div>
             </div>
             <div class="main2">
-                <img src="" alt="Cotiza">
+                <div class="main3">
+                    <img src="https://www.stylist.co.uk/images/app/uploads/2019/11/07071743/dua-lipa-social-media.jpg?w=1200&h=1&fit=max&auto=format%2Ccompress" alt="Cotiza">
+                </div>
             </div>
         </div>
         <div class="informacion">
@@ -202,6 +204,21 @@
         width: 200px;
         display: flex;
         justify-content: space-around;
+    }
+    .main2{
+        display: flex;
+        position: relative;
+    }
+    .main3{
+        position: absolute;
+        top: 86px;
+        left: 200px;
+    }
+
+    .main3 > img{
+        height: 440px;
+        width: auto;
+        position: absolute;
     }
 
     .ver-mas{
