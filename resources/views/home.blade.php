@@ -239,7 +239,7 @@
         cursor: pointer;
     }
     .informacion{
-        margin-top: 10px;
+        margin-top: 120px;
         margin-bottom: 3rem;
     }
 
