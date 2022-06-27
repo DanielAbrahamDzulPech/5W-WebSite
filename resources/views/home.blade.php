@@ -33,7 +33,7 @@
                     <li>Promociones</li>
                     <li>Talleres</li>
                     <li>Contacto</li>
-                    <li class="boton-login">Login</li>
+                    <li class="boton-login" ><a href="{{ route('login') }}">Login</a></li>
                 </ul>
             </div>
         </div>
