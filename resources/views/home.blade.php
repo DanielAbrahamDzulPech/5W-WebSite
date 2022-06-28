@@ -126,9 +126,15 @@
             <div class="formulario-contenido">
                 <h1>Contáctate con <b>Nosotros</b></h1>
                 <p>Si tiene cualquier duda, quiere solicitar una demostración del programa de gestión de talleres mecánicos, quiere contactar con nosotros, quiere que un comercial le haga una demostración de nuestro programa de gestión de talleres, o para cualquier otra cuestion, puede ponerse en contacto con nosotros rellenando el siguiente formulario:</p>
-            </div>
-            <div class="servicio-calidad-main-2">
-                <img src="" alt="">
+                <section class="form-register">
+                    <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+                    <input class="controls" type="number" name="telefono" id="numero" placeholder="Ingrese su número">
+                    <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+                    <input class="controls mensaje" type="text" name="correo" id="mensaje" placeholder="Ingrese su Mensaje">
+                </section>
+                <section>
+                    <input class="botons" type="submit" value="Registrar">
+                </section>
             </div>
         </div>
         <div class="pie-de-pagina">
@@ -381,7 +387,6 @@
     }
     .servicio-calidad-main-1{
         /* text-justify: center; */
-
     }
     .formulario-contenido{
         text-align: center;
@@ -394,6 +399,61 @@
         padding-top: 1.5rem;
         padding-left: 4rem;
         padding-right: 4rem;
+    }
+    .form-register {
+        padding-left: 8rem;
+        padding-right: 8rem;
+        width: 100%;
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        border-radius: 4px;
+        font-family: 'calibri';
+        color: white;
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .controls {
+        width: 100%;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 1px solid #1f53c5;
+        font-family: 'calibri';
+        font-size: 18px;
+        color: white;
+    }
+
+    .form-register p {
+        height: 40px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 40px;
+    }
+
+    .form-register a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .form-register a:hover {
+        color: white;
+        text-decoration: underline;
+    }
+
+    .form-register .botons {
+        width: 100%;
+        background: #1f53c5;
+        border: none;
+        padding: 12px;
+        color: white;
+        margin: 16px 0;
+        font-size: 16px;
+    }
+    .mensaje{
+        grid-column: -4 /-1;
     }
     footer {
         display: flex;
