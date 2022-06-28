@@ -47,7 +47,7 @@
             </div>
             <div class="main2">
                 <div class="main3">
-                    <img src="https://www.stylist.co.uk/images/app/uploads/2019/11/07071743/dua-lipa-social-media.jpg?w=1200&h=1&fit=max&auto=format%2Ccompress" alt="Cotiza">
+                    <img src="https://img.freepik.com/foto-gratis/mecanico-celebracion-tableta-digital_1170-1552.jpg?w=900&t=st=1656374063~exp=1656374663~hmac=80310a13a0c8fc5a332843e718c8959a31ce0239066ccfbd57e81d61219acf03" alt="Cotiza">
                 </div>
             </div>
         </div>
@@ -59,25 +59,25 @@
             </div>
         </div>
         <div class="contenedor-servicios">
-            <div class="card" style="background-image: url('https://th.bing.com/th/id/R.75365afa7e5addff824a08bf1d33140f?rik=S1bxaGc9Q5RNeQ&pid=ImgRaw&r=0')">
+            <div class="card" style="background-image: url('https://img.freepik.com/foto-gratis/mecanico-que-usa-computadora-portatil_1170-1145.jpg?t=st=1656344409~exp=1656345009~hmac=777079de516a4e15a754073344fae8817acc5c43aa321006dc52181502d181d7&w=900')">
                 <div class="textos">
                     <h3>Colaboración</h3>
                     <p>En Tiempo Real</p>
                 </div>
             </div>
-            <div class="card" style="background-image: url('https://www.stylist.co.uk/images/app/uploads/2019/11/07071743/dua-lipa-social-media.jpg?w=1200&h=1&fit=max&auto=format%2Ccompress')">
+            <div class="card" style="background-image: url('https://img.freepik.com/foto-gratis/centro-servicio-reparacion-automoviles-auto-examen-mecanico_136930-5.jpg?w=900')">
                 <div class="textos">
                     <h3>Soporte</h3>
                     <p>Profesional</p>
                 </div>
             </div>
-            <div class="card" style="background-image: url('https://th.bing.com/th/id/R.75365afa7e5addff824a08bf1d33140f?rik=S1bxaGc9Q5RNeQ&pid=ImgRaw&r=0')">
+            <div class="card" style="background-image: url('https://img.freepik.com/foto-gratis/cambio-neumaticos-mecanico-servicio-automovil_1303-26903.jpg?t=st=1656374469~exp=1656375069~hmac=4a974046ee368de487591f5260c6a52157c83388b2de3f7c94e176108db92868&w=900')">
                 <div class="textos">
                     <h3>Valido para todo</h3>
                     <p>Tipo de taller</p>
                 </div>
             </div>
-            <div class="card" style="background-image: url('https://www.stylist.co.uk/images/app/uploads/2019/11/07071743/dua-lipa-social-media.jpg?w=1200&h=1&fit=max&auto=format%2Ccompress')">
+            <div class="card" style="background-image: url('https://img.freepik.com/foto-gratis/hombre-reparacion-haciendo-servicio-coche_1303-26870.jpg?t=st=1656374469~exp=1656375069~hmac=9c3f7883dc37f0d4f3a43a9a7fea800329d57265ac9a5d07fd3e7301843f507f&w=900')">
                 <div class="textos">
                     <h3>Pago 100%</h3>
                     <p>Seguro</p>
@@ -111,6 +111,24 @@
                     <img src="" alt="Imagen">
                     <h2>Motocicletas</h2>
                 </div>
+            </div>
+        </div>
+        <div class="servicio-calidad">
+            <div class="servicio-calidad-main-1">
+                <h1>Ofrece un servicio de calidad</h1>
+                <p>Tú tambien puedes ser uno de nuestros clientes y poner tu taller mecánico en el mapa</p>
+            </div>
+            <div class="servicio-calidad-main-2">
+                <img src="" alt="">
+            </div>
+        </div>
+        <div class="contacto">
+            <div class="formulario-contenido">
+                <h1>Contáctate con <b>Nosotros</b></h1>
+                <p>Si tiene cualquier duda, quiere solicitar una demostración del programa de gestión de talleres mecánicos, quiere contactar con nosotros, quiere que un comercial le haga una demostración de nuestro programa de gestión de talleres, o para cualquier otra cuestion, puede ponerse en contacto con nosotros rellenando el siguiente formulario:</p>
+            </div>
+            <div class="servicio-calidad-main-2">
+                <img src="" alt="">
             </div>
         </div>
         <div class="pie-de-pagina">
@@ -212,12 +230,12 @@
     .main3{
         position: absolute;
         top: 86px;
-        left: 200px;
+        left: 160px;
     }
 
     .main3 > img{
         height: 440px;
-        width: auto;
+        width: 480px;
         position: absolute;
     }
 
@@ -351,6 +369,31 @@
         padding-bottom: 2.8rem;
         background-color:#32527f;
         color: white;
+    }
+    .servicio-calidad{
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        background-color: #e06016;
+        color: #f1f1f1;
+        height: 370px;
+        text-align: center;
+        padding-top: 4rem;
+    }
+    .servicio-calidad-main-1{
+        /* text-justify: center; */
+
+    }
+    .formulario-contenido{
+        text-align: center;
+        margin-top: 8rem;
+    }
+    .formulario-contenido > h1 > b{
+        color: #e06016;
+    }
+    .formulario-contenido > p {
+        padding-top: 1.5rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
     }
     footer {
         display: flex;
